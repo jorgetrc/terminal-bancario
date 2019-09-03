@@ -42,7 +42,7 @@ public class ContaBancoUser {
     }
     
     /**
-     * Fechar conta
+     * Fechar conta bancária
      */
     public void fecharConta() {
         if (this.getSaldo() > 0) {
