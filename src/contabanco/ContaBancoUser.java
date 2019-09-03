@@ -40,7 +40,10 @@ public class ContaBancoUser {
         }
         System.out.println("Conta aberta com sucesso!");
     }
-
+    
+    /**
+     * Fechar conta
+     */
     public void fecharConta() {
         if (this.getSaldo() > 0) {
             System.out.println("Conta não pode ser fechada porque ainda tem saldo.");
